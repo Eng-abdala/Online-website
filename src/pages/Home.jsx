@@ -1,3 +1,8 @@
+import abdalla from '../images/Abdalla circle.png'
+import clock from '../images/clock.png'
+import lesson from '../images/lesson.png'
+import machine from '../images/machine.jpeg'
+import person from '../images/person.png'
 function Home(){
     return<div>
      <div className="flex justify-around pt-[50px] bg-green-200">
@@ -8,7 +13,7 @@ function Home(){
             <button className=" mt-[10px] bg-green-600 px-[20px] rounded-md text-[20px] text-white py-[5px]">Start A course</button>
 
         </div>
-        <img className="w-[500px] h-[550px]" src="src/images/person.png" alt="" />
+        <img className="w-[500px] h-[550px]" src={person} />
     </div>
 
     <div className="flex justify-between px-[100px] mt-[50px]">
@@ -31,10 +36,10 @@ function Home(){
     <div className=" flex justify-between px-[50px] mt-[50px]">
         {/* Course 1 */}
         <div className="h-[550px] w-[380px] border-[2px] border-gray-200">
-            <img className="w-[360px] h-[300px] mt-[10px] rounded-md m-auto" src="src/images/machine.jpeg" alt="" />
+            <img className="w-[360px] h-[300px] mt-[10px] rounded-md m-auto" src={machine} />
             <div className="flex justify-between px-[20px] my-[12px] items-center">
                 <div className=" flex justify-start gap-5 items-center">
-                    <img className="w-[40px]" src="src/images/Abdalla circle.png" alt="" />
+                    <img className="w-[40px]" src={abdalla} />
                     <h1 className="text-gray-500 text-[12px] font-bold">Eng.Abdalla</h1>
                 </div>
                 <button className="bg-green-200 h-[30px] px-5 text-center rounded-md text-green-600">Enroll Now</button>
@@ -42,12 +47,12 @@ function Home(){
             <h1 className=" px-[20px] font-bold text-[20px] mb-[12px]"> Mastering datascience and Machine lerning Using pyhton</h1>
             <div className="flex justify-between px-[20px]">
                 <div className=" flex justify-start gap-2">
-                    <img className="w-[20px]" src="src/images/clock.png" alt="" />
+                    <img className="w-[20px]" src={clock} />
                 <p className="text-gray-500 tex-[12px] font-thin">10hr 15 minutes</p>
 
                 </div>
                 <div className=" flex justify-start gap-2">
-                    <img className="w-[20px]" src="src/images/lesson.png" alt="" />
+                    <img className="w-[20px]" src={lesson} />
                 <p className="text-gray-500 tex-[12px] font-thin">29 Lessons</p>
 
                 </div>
@@ -63,10 +68,10 @@ function Home(){
         {/* Course 2 */}
 
         <div className="h-[550px] w-[380px] border-[2px] border-gray-200">
-            <img className="w-[360px] h-[300px] mt-[10px] rounded-md m-auto" src="src/images/machine.jpeg" alt="" />
+            <img className="w-[360px] h-[300px] mt-[10px] rounded-md m-auto" src={machine} />
             <div className="flex justify-between px-[20px] my-[12px] items-center">
                 <div className=" flex justify-start gap-5 items-center">
-                    <img className="w-[40px]" src="src/images/Abdalla circle.png" alt="" />
+                    <img className="w-[40px]" src={abdalla} />
                     <h1 className="text-gray-500 text-[12px] font-bold">Eng.Abdalla</h1>
                 </div>
                 <button className="bg-green-200 h-[30px] px-5 text-center rounded-md text-green-600">Enroll Now</button>
@@ -74,12 +79,12 @@ function Home(){
             <h1 className=" px-[20px] font-bold text-[20px] mb-[12px]"> Mastering datascience and Machine lerning Using pyhton</h1>
             <div className="flex justify-between px-[20px]">
                 <div className=" flex justify-start gap-2">
-                    <img className="w-[20px]" src="src/images/clock.png" alt="" />
+                    <img className="w-[20px]" src={clock} />
                 <p className="text-gray-500 tex-[12px] font-thin">10hr 15 minutes</p>
 
                 </div>
                 <div className=" flex justify-start gap-2">
-                    <img className="w-[20px]" src="src/images/lesson.png" alt="" />
+                    <img className="w-[20px]" src={lesson}/>
                 <p className="text-gray-500 tex-[12px] font-thin">29 Lessons</p>
 
                 </div>
@@ -95,10 +100,10 @@ function Home(){
         {/* Course 3 */}
 
         <div className="h-[550px] w-[380px] border-[2px] border-gray-200">
-            <img className="w-[360px] h-[300px] mt-[10px] rounded-md m-auto" src="src/images/machine.jpeg" alt="" />
+            <img className="w-[360px] h-[300px] mt-[10px] rounded-md m-auto" src={machine} />
             <div className="flex justify-between px-[20px] my-[12px] items-center">
                 <div className=" flex justify-start gap-5 items-center">
-                    <img className="w-[40px]" src="src/images/Abdalla circle.png" alt="" />
+                    <img className="w-[40px]" src={abdalla} />
                     <h1 className="text-gray-500 text-[12px] font-bold">Eng.Abdalla</h1>
                 </div>
                 <button className="bg-green-200 h-[30px] px-5 text-center rounded-md text-green-600">Enroll Now</button>
@@ -106,12 +111,12 @@ function Home(){
             <h1 className=" px-[20px] font-bold text-[20px] mb-[12px]"> Mastering datascience and Machine lerning Using pyhton</h1>
             <div className="flex justify-between px-[20px]">
                 <div className=" flex justify-start gap-2">
-                    <img className="w-[20px]" src="src/images/clock.png" alt="" />
+                    <img className="w-[20px]" src={clock} />
                 <p className="text-gray-500 tex-[12px] font-thin">10hr 15 minutes</p>
 
                 </div>
                 <div className=" flex justify-start gap-2">
-                    <img className="w-[20px]" src="src/images/lesson.png" alt="" />
+                    <img className="w-[20px]" src={lesson} />
                 <p className="text-gray-500 tex-[12px] font-thin">29 Lessons</p>
 
                 </div>
