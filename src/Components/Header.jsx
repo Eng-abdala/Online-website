@@ -5,6 +5,8 @@ function Header(){
     <ul className="flex justify-center gap-11 text-[20px]  ">
         <NavLink to ="/"> <li>Home</li></NavLink>
         <NavLink to ="/Service"> <li>Service</li></NavLink>
+        <NavLink to ="/Contact"> <li>Contact</li></NavLink>
+        <NavLink to ="/Form"> <li>Form</li></NavLink>
     </ul>
     <div>
 

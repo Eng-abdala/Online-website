@@ -3,7 +3,7 @@ function Service(){
         
     <div className="flex justify-between px-[100px] mt-[50px]">
         <h1 className="text-[30px] font-bold">
-            All Courses of <span className="text-green-600">Aabdul</span>
+            All Courses of <span className="text-green-600">Abdul</span>
         </h1>
         <div className="w-[280px] h-[33px] border-[2px] border-gray-400">
             <p className="text-[12px] text-gray-500 pt-[3px]">Search Your Course</p>
